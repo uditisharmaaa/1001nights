@@ -47,6 +47,8 @@ header h1 {
     padding: 20px;
     border-radius: 10px;
     border: 2px solid #e0c097;
+    max-height: 300px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
 }
 
 .choices {
