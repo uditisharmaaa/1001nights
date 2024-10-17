@@ -12,10 +12,10 @@ const storyNodes = {
         }
     },
     2: {
-        story: "You reveal your identity as Sinbad the Voyager. The women are shocked and intrigued. They offer you greater hospitality, but the atmosphere becomes cautious, as they now realize you are no ordinary guest. The evening unfolds with heightened awareness. What will you do?",
+        story: "You reveal your identity as Sinbad the Voyager. The women are shocked and intrigued. They offer you greater hospitality, but the atmosphere becomes cautious as they now realize you are no ordinary guest. The evening unfolds with growing respect and heightened awareness. When the visitors (three dervishes and the caliph in disguise) arrive, the tension rises, and everyone is conscious of your presence. The game ends here for now.",
         choices: {
-            1: { text: "Wait and observe the guests", nextNode: 5 },
-            2: { text: "Ask the women about their secrets", nextNode: 6 }
+            1: { text: "Restart", nextNode: 1 },
+            2: { text: "Exit", nextNode: 8 }
         }
     },
     3: {
@@ -26,10 +26,10 @@ const storyNodes = {
         }
     },
     4: {
-        story: "You stay silent and observe the strange events. The women appreciate your discretion and trust you more, but the mystery of the house deepens. What will you do next?",
+        story: "You stay silent and observe the strange events. The women appreciate your discretion and trust you more, but the mystery of the house deepens. The feast continues, and you quietly try to piece together the connections between the characters. The caliph in disguise also grows suspicious of the events unfolding in the house. Everyone leaves at dawn with many questions on their minds, but the women’s secrets remain untold. The game ends here.",
         choices: {
-            1: { text: "Wait and observe the guests", nextNode: 5 },
-            2: { text: "Ask the women about their secrets", nextNode: 6 }
+            1: { text: "Restart", nextNode: 1 },
+            2: { text: "Exit", nextNode: 8 }
         }
     },
     5: {
