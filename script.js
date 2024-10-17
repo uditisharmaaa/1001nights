@@ -47,7 +47,7 @@ const storyNodes = {
         }
     },
     7: {
-        story: "You reveal yourself as Sinbad the Voyager. The room goes silent as you recount your seven voyages, filled with danger and adventure. You are spared, but the power dynamics shift. What will you do next?",
+        story: "You reveal yourself as Sinbad the Voyager. The room goes silent as you recount your seven voyages, filled with danger, adventure, and lessons learned. The dervishes and the women recognize the legendary tales and realize they are in the presence of a true adventurer. This shifts the power dynamics in the room, as Sinbad is no longer seen as a mere servant but as an equal, if not superior, to the others. The caliph, still in disguise, also begins to realize the significance of Sinbad’s presence. The following day, after everyone shares their stories and the caliph reveals his true identity, he calls upon the women to reveal their secrets. The caliph then declares it is time to settle the fates of everyone present. Traditionally, the three women would be paired with the three dervishes. However, with Sinbad now included, an imbalance has been created. The caliph subtly suggests that marriage might resolve this situation. What will you do next?",
         choices: {
             1: { text: "Choose to marry one of the women", nextNode: 10 },
             2: { text: "Reject marriage and continue your journey", nextNode: 11 }
@@ -65,14 +65,14 @@ const storyNodes = {
         }
     },
     10: {
-        story: "You choose to marry one of the women. The youngest woman is fascinated by your adventures and expresses interest. However, this decision creates tension among the guests and other women. The caliph must now resolve the remaining guests' fates. The game ends here.",
+        story: "You choose to marry one of the women. The youngest woman is fascinated by your tales of adventure and expresses interest in marrying you. However, this decision causes a rift, as the other women now face choices about their own futures. The caliph approves the marriage, but there is underlying tension about what will happen to the others. The caliph must still resolve the issue of the remaining guests and women. The game ends here for now.",
         choices: {
             1: { text: "Restart", nextNode: 1 },
             2: { text: "Exit", nextNode: 8 }
         }
     },
     11: {
-        story: "You reject the offer of marriage and continue your journey. The caliph respects your decision, and the story concludes. The game ends here.",
+        story: "You reject the offer of marriage and continue your journey. The caliph respects your decision, and the story concludes. However, the caliph decrees that the youngest sister will marry him, and the three dervishes will marry the other two sisters (who were previously dogs). His son will marry the sister who was tricked into marrying him earlier. The game ends here as the caliph’s decision remains unchanged.",
         choices: {
             1: { text: "Restart", nextNode: 1 },
             2: { text: "Exit", nextNode: 8 }
