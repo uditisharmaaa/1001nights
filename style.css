@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('https://example.com/starry-night-background.jpg'); /* Use an appropriate background */
+    background-image: url('background.jpg'); /* Use an appropriate background */
     background-size: cover;
 }
 
@@ -78,4 +78,32 @@ footer {
     margin-top: 20px;
     color: #e0c097;
     font-size: 0.9em;
+}
+.audio-controls {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+.themed-button {
+    background: linear-gradient(to bottom, #e0c097, #8b0000); /* Gold to deep red gradient */
+    color: #fff;
+    border: 2px solid #e0c097; /* Gold border */
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-family: 'Cinzel', serif;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(224, 192, 151, 0.5); /* Subtle glowing effect */
+}
+
+.themed-button:hover {
+    background: linear-gradient(to bottom, #f4e5c2, #a52a2a); /* Brighter on hover */
+    color: #fff;
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 0 20px rgba(224, 192, 151, 0.8); /* Stronger glow */
 }
